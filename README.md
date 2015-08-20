@@ -37,8 +37,6 @@ In this part, I have implemented advanced pipeline using Tomasulo algorithm with
 
 The Tomasulo Algorithm is implemented with two simplifications in handling store-load memory dependences: <br>
 1.	The memory addresses for loads and stores are generated in order. <br>
-2.	When a load is data dependent on an early store (with a matching address), the load stalls until the parent store commits and the data is stored into memory. If a match is found with multiple early stores, the parent is the latest store. <br>
+2.	When a load is data dependent on an early store (with a matching address), the load stalls until the parent store commits and the data is stored into memory. If a match is found with multiple early stores, the parent is the latest store. <br><br>
 <b><i><u>INPUT </u></i></b>: is same as PART1 <br>
-
-<b><i>OUTPUT </i></b>: 
-Please see output.txt to see cycle-by-cycle execution.
+<b><i>OUTPUT </i></b>: Please see output.txt to see cycle-by-cycle execution.
